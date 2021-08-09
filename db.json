@@ -1,0 +1,19 @@
+{
+  "tasks": [
+    {
+      "name": "termine el swagger",
+      "description": "lo mejor de la documentacion",
+      "id": "rAmwVfA7VjOGLzuKV41mh"
+    },
+    {
+      "name": "probando swagger",
+      "description": "estoy probando la aplicación desde la web local",
+      "id": "PYMW6JeN6m1kG7pYt2SUo"
+    },
+    {
+      "name": "na nananananana",
+      "description": "swagger post",
+      "id": "5qAetjhbIOL5UQudqNti-"
+    }
+  ]
+}

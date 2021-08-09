@@ -1,0 +1,35 @@
+GET http://localhost:3000/tasks
+
+###
+
+POST http://localhost:3000/task
+Content-Type: application/json
+
+{
+    "name":"fdgdfgdf dfgdfgdfg dgdfgdfg ",
+    "description":"segusdfgdsfgdf gvfdgdfg"
+}
+
+###
+
+GET http://localhost:3000/task/t6g7hT3-gDW6cCDrzcn3N
+
+
+
+###
+DELETE http://localhost:3000/task/TN-PK9VVh7ZKxpFP65OUF
+
+
+### Updating a task
+PUT http://localhost:3000/task/TN-PK9VVh7ZKxpFP65OUF
+Content-Type: application/json
+
+{
+    "name":"pedrito de los palotes editado",
+    "description":"juex de paz"
+}
+
+
+### countTask para contar los registros
+
+GET http://localhost:3000/tasks/count
